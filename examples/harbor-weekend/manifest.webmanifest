@@ -1,0 +1,23 @@
+{
+  "name": "湖山海慢游 · 三日示例",
+  "short_name": "旅行沙盘",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#355e49",
+  "icons": [
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
