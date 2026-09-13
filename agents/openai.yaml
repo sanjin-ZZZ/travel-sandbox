@@ -1,0 +1,4 @@
+interface:
+  display_name: "标准旅行沙盘"
+  short_description: "从轻问卷、灵感搜集到同款微缩沙盘，包含旅行记账和手机主屏幕交付"
+  default_prompt: "使用 $travel-sandbox，先了解我的旅行偏好、搜集灵感并讨论大纲，再用固定模板生成旅行沙盘；公开部署前先确认。"

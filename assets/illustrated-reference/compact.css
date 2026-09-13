@@ -1,0 +1,96 @@
+@media(min-width:941px){
+body:has(.maplayout){height:100dvh;overflow:hidden}
+body:has(.maplayout) .shell{height:100dvh;min-height:0;grid-template-columns:160px minmax(0,1fr)}
+body:has(.maplayout) .sidebar{padding:22px 16px;height:100dvh;min-height:0}
+body:has(.maplayout) .brand{font-size:21px;line-height:1.5;letter-spacing:0}
+body:has(.maplayout) .brand small{display:none}
+body:has(.maplayout) .stamp{margin:20px 0;padding:12px 0}
+body:has(.maplayout) .stamp strong{font-size:25px}
+body:has(.maplayout) .nav button{padding:11px 8px;font-size:12px}
+body:has(.maplayout) .num{margin-right:9px}
+body:has(.maplayout) .sidefoot p:last-child{display:none}
+body:has(.maplayout) main{height:100dvh;min-width:0;min-height:0;max-width:none;padding:12px 18px!important;display:grid;grid-template-rows:28px 22px minmax(0,1fr);gap:3px}
+body:has(.maplayout) .topbar{margin:0;justify-content:flex-end}
+body:has(.maplayout) .topbar .eyebrow,body:has(.maplayout) #headline,body:has(.maplayout) #subtitle,body:has(.maplayout) main>footer{display:none}
+body:has(.maplayout) .topactions button{padding:4px 9px;font-size:11px}
+body:has(.maplayout) .meta{margin:0!important;font-size:11px!important;align-items:center;white-space:nowrap}
+body:has(.maplayout) #content{min-height:0;display:flex;flex-direction:column;gap:9px}
+body:has(.maplayout) .daytabs{flex:none;margin:0;min-height:46px}
+body:has(.maplayout) .daytabs button{padding:6px 12px;display:flex;align-items:baseline;gap:10px;min-height:44px}
+body:has(.maplayout) .daytabs strong{font-size:23px}
+body:has(.maplayout) .daytabs small{font-size:11px}
+body:has(.maplayout) .maplayout{flex:1;min-height:0;grid-template-columns:minmax(0,1fr) 288px;gap:18px;margin:0}
+.maplayout>section{display:grid;grid-template-rows:32px minmax(0,1fr);min-height:0;min-width:0}
+.maplayout .maptools{padding:0 0 5px;border:0;margin:0}
+.maplayout .maptools button{padding:5px 12px;font-size:12px}
+#geo-host.illustrated-atlas{min-height:0;display:grid;grid-template-columns:1fr auto;grid-template-rows:44px minmax(0,1fr) 36px;grid-template-areas:"filters camera" "canvas canvas" "directory directory";overflow:visible;border-radius:8px}
+#geo-host .geo-toolbar,#geo-host .sb-legend,#geo-host .atlas-context,#geo-host .geo-route{display:none}
+#geo-host .geo-filters{grid-area:filters;flex-wrap:nowrap;padding:6px 10px;gap:4px;min-width:0}
+#geo-host .geo-filters button{font-size:11px;padding:4px 8px}
+#geo-host .map-camera-tools{grid-area:camera;padding:4px 9px 4px 0;gap:4px;flex-wrap:nowrap}
+#geo-host .map-camera-tools button{min-width:27px;min-height:28px;padding:4px 7px;font-size:11px}
+#geo-host .map-camera-tools output{min-width:31px;font-size:10px}
+#geo-host .map-camera-tools span{display:none}
+#geo-host .sb-canvas{grid-area:canvas;min-height:0;height:100%;padding:0!important;overflow:hidden!important;display:block}
+#geo-host .atlas-panel{height:100%;min-height:0;display:flex;flex-direction:column}
+#geo-host .sb-map{flex:1;min-height:0!important;height:100%!important;width:100%!important;max-height:100%;aspect-ratio:auto}
+#geo-host .atlas-unlocated{flex:none;margin:0;padding:3px 10px;min-height:24px;gap:7px}
+#geo-host .atlas-unlocated small,#geo-host .atlas-unlocated button{font-size:10px}
+#geo-host .geo-directory{grid-area:directory;position:relative;padding:0 12px;border-top:1px solid #e0e3d6}
+#geo-host .geo-directory-toggle{font-size:11px;min-height:34px}
+#geo-host .geo-index:not([hidden]){position:absolute;bottom:100%;left:0;right:0;max-height:280px;overflow:auto;background:#fafaf3;border:1px solid #d8dfcd;padding:10px 16px;margin:0;box-shadow:0 -5px 18px #34463112;z-index:5}
+.maplayout #mapDetail{position:static;min-height:0;max-height:none;height:100%;overflow-y:auto;padding:4px 7px 12px 2px;font-size:12px;scrollbar-width:thin}
+#mapDetail h2{font-size:22px;margin:8px 0 10px;line-height:1.35}
+#mapDetail>p{font-size:12px;line-height:1.65;margin:8px 0}
+#mapDetail .eyebrow{font-size:9px;letter-spacing:1px}
+#mapDetail .event{margin:0!important;padding:10px 0;border-bottom:1px solid #e2e4d8}
+#mapDetail .eventhead h3{font-size:14px;margin:3px 0;line-height:1.4}
+#mapDetail .time{font-size:10px}
+#mapDetail .event .tag{font-size:10px;margin:3px 0}
+#mapDetail .event-extra,#mapDetail .day-extra{padding:6px 0;border-bottom:0}
+#mapDetail .event-extra summary,#mapDetail .day-extra summary{font-size:11px;color:#7a8371}
+#mapDetail .event-extra p{font-size:12px;line-height:1.6;margin:7px 0}
+#mapDetail .day-extra .journey-summary{margin:6px 0}
+#mapDetail .check{font-size:10px;white-space:nowrap}
+#mapDetail .note,#mapDetail .journey-card{font-size:12px;line-height:1.6;padding:9px;margin:10px 0}
+#mapDetail textarea{min-height:64px;height:64px}
+}
+@media(min-width:941px) and (max-width:1200px){body:has(.maplayout) .shell{grid-template-columns:138px minmax(0,1fr)}body:has(.maplayout) .maplayout{grid-template-columns:minmax(0,1fr) 240px;gap:12px}#geo-host.illustrated-atlas{grid-template-columns:1fr;grid-template-rows:35px 34px minmax(0,1fr) 34px;grid-template-areas:"filters" "camera" "canvas" "directory"}#geo-host .map-camera-tools{padding-left:10px}body:has(.maplayout) .daytabs button{display:block;padding:4px 8px}body:has(.maplayout) .daytabs strong{font-size:20px}}
+@media(min-width:941px){body:has(.maplayout) .maplayout{align-items:stretch}.maplayout>section{height:100%;min-height:0}#geo-host.illustrated-atlas{height:100%;min-height:0!important}#geo-host .sb-canvas{height:auto}#geo-host .atlas-panel{height:100%;overflow:hidden}#geo-host svg.sb-map{aspect-ratio:unset!important;min-height:0!important;height:0!important;flex:1 1 0}}
+/* Fit the illustration's natural width; give remaining space to the itinerary. */
+@media(min-width:1201px){
+body:has(.maplayout) .maplayout{grid-template-columns:minmax(0,min(calc((100dvh - 262px) * 1.49254),calc(100% - 350px))) minmax(330px,1fr)}
+#mapDetail .event-extra[open]{padding-top:3px}
+#mapDetail .event-extra[open]>summary{display:none}
+#mapDetail .event-extra p{margin:3px 0 7px;line-height:1.7}
+#mapDetail .event-extra .links{margin-top:5px;font-size:11px}
+#mapDetail .eventhead h3{font-size:15px}
+#mapDetail .event{padding:12px 0}
+#mapDetail .event .tag:empty{display:none}
+}
+@media(min-width:1201px){#mapDetail>p,#mapDetail .event-extra p{font-size:13px}#mapDetail .eventhead h3{font-size:16px}}
+/* Shared desktop frame and type scale for all four sections. */
+@media(min-width:941px){
+body{height:100dvh;overflow:hidden}
+.shell{height:100dvh;min-height:0;grid-template-columns:160px minmax(0,1fr)}
+.sidebar{padding:22px 16px;height:100dvh;min-height:0}
+.brand{font-size:21px;line-height:1.5;letter-spacing:0}.brand small{display:none}
+.stamp{margin:20px 0;padding:12px 0}.stamp strong{font-size:25px}
+.nav button{padding:11px 8px;font-size:12px}.num{margin-right:9px}.sidefoot p:last-child{display:none}
+main{height:100dvh;min-width:0;min-height:0;max-width:none;padding:12px 18px!important;display:grid;grid-template-rows:28px 22px minmax(0,1fr);gap:3px}
+.topbar{margin:0;justify-content:flex-end}.topbar .eyebrow,#headline,#subtitle,main>footer{display:none}
+.topactions button{padding:4px 9px;font-size:11px}.meta{margin:0!important;font-size:11px!important;align-items:center;white-space:nowrap}
+body:not(:has(.maplayout)) #content{min-height:0;overflow-y:auto;overflow-x:hidden;padding:14px 6px 22px 0;scrollbar-width:thin}
+body:not(:has(.maplayout)) #content h2{font:22px/1.4 var(--serif);margin:0 0 12px}
+body:not(:has(.maplayout)) #content h3{font-size:17px;line-height:1.4}
+body:not(:has(.maplayout)) #content :is(p,label,input,select,button){font-size:12px}
+body:not(:has(.maplayout)) #content :is(.tiny,.tag,.date,.links){font-size:11px}
+#content .lede{font-size:12px;margin:0 0 14px;color:var(--muted)}
+.sectionhead{align-items:center}.sectionhead>span{font-size:12px;color:var(--muted)}
+.filters{gap:10px;margin:12px 0 14px}.filters input,.filters select{padding:7px 9px;min-height:32px}
+.foodgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.foodcard{padding:15px;min-height:0;border-radius:6px}.foodcard .foodtop{margin-bottom:8px}.foodcard h3{margin:2px 0 8px}.foodcard p{line-height:1.7;margin:0 0 9px}.foodcard .links{padding-top:9px;margin-top:8px}.foodtop span{font-size:10px}.foodcard .star{font-size:11px;padding:3px 7px}
+.hotelgrid{gap:16px}.hotel{padding:18px;border-radius:6px}.hotel h3{font-size:19px!important;margin:8px 0}.hotel p{line-height:1.7;margin:9px 0}.hotel .date{font-size:11px}.hotel textarea{min-height:64px;height:64px}.hotel label{margin:9px 0}.hotel .hotel-conditions{padding:8px 0;margin:8px 0;border-top:1px solid var(--line)}.hotel-conditions summary{font-size:11px;color:var(--muted)}.practical{margin-top:18px}.practical details{padding:11px 0}.practical summary{font-size:12px}
+.ledger-totals{margin:14px 0 18px;padding:14px 0}.ledger-totals>div{padding:0 18px}.ledger-totals strong{font-size:28px;line-height:1.4;margin:8px 0}.ledger-layout{grid-template-columns:minmax(0,1fr) 310px;gap:22px}.ledger-editor{padding:16px}.ledger-editor h3{margin:0 0 12px}.ledger-editor label{margin:8px 0;gap:5px}.ledger-editor input,.ledger-editor select{padding:7px 9px;min-height:33px}.ledger-fields{gap:10px}.ledger-table td,.ledger-table th{font-size:12px;padding:10px 8px}.ledger-table .tiny{font-size:11px}.ledger-list-head{margin-bottom:10px}.ledger-backup{margin-top:18px;padding-top:12px}.ledger-breakdown-title{margin-top:20px}#ledger-budget-form{margin-top:16px;padding-top:14px}
+}
+@media(min-width:941px) and (max-width:1200px){.shell{grid-template-columns:138px minmax(0,1fr)}.foodgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.ledger-layout{grid-template-columns:minmax(0,1fr) 270px;gap:14px}}

@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-lake-2030",
+  "title": "湖山海 · 演示旅行",
+  "headline": "走进风景，留一点空白。",
+  "subtitle": "虚构示例：演示固定沙盘模板，不是真实攻略。",
+  "startDate": "2030-04-30",
+  "endDate": "2030-05-02",
+  "travelers": 3,
+  "currency": "CNY",
+  "cities": [
+    "湖城",
+    "山城",
+    "海城"
+  ],
+  "meta": [
+    "三人同行",
+    "三城示意 · 无真实预订",
+    "仅供模板演示"
+  ],
+  "places": [
+    {
+      "id": "inn",
+      "name": "湖岸旅舍",
+      "city": "湖城",
+      "type": "酒店",
+      "icon": "hotel",
+      "caption": "住宿候选",
+      "status": "候选 · 未预订",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "lake",
+      "name": "湖畔步道",
+      "city": "湖城",
+      "type": "景点",
+      "icon": "lake",
+      "caption": "轻松散步",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "coffee",
+      "name": "林间咖啡",
+      "city": "湖城",
+      "type": "咖啡",
+      "icon": "cafe",
+      "caption": "下午慢坐",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "market",
+      "name": "早间市场",
+      "city": "湖城",
+      "type": "餐饮",
+      "icon": "market",
+      "caption": "早餐备选",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "grass",
+      "name": "山坡草地",
+      "city": "山城",
+      "type": "景点",
+      "icon": "grass",
+      "caption": "自然主安排",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "waterfall",
+      "name": "山谷瀑布",
+      "city": "山城",
+      "type": "景点",
+      "icon": "waterfall",
+      "caption": "天气合适再去",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "coast",
+      "name": "海湾沙滩",
+      "city": "海城",
+      "type": "景点",
+      "icon": "coast",
+      "caption": "看海留白",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    },
+    {
+      "id": "station",
+      "name": "返程机场",
+      "city": "海城",
+      "type": "交通",
+      "icon": "airport",
+      "caption": "提前抵达",
+      "status": "演示选项 · 非真实推荐",
+      "desc": "这是用于演示模板的虚构地点，不代表真实旅行建议。正式使用时替换为经过筛选的内容。",
+      "stay": "示例停留安排，按实际节奏填写",
+      "mapUrl": "",
+      "sourceUrl": "",
+      "checkedAt": "",
+      "verification": "unknown",
+      "locationNote": "虚构示意位置，不用于真实导航。"
+    }
+  ],
+  "days": [
+    {
+      "id": "day-apr30",
+      "date": "2030-04-30",
+      "city": "湖城",
+      "title": "湖边与咖啡",
+      "intro": "这是模板演示，安排和地点均为虚构。主要体验之外保留休息时间。",
+      "warn": "示例不含真实票价、营业时间或交通时长。请勿按此出行。",
+      "region": "region-0",
+      "items": [
+        {
+          "id": "event-0-0",
+          "time": "上午",
+          "name": "湖岸旅舍",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "inn"
+        },
+        {
+          "id": "event-0-1",
+          "time": "午前",
+          "name": "湖畔步道",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "lake"
+        },
+        {
+          "id": "event-0-2",
+          "time": "下午",
+          "name": "林间咖啡",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "coffee"
+        },
+        {
+          "id": "event-0-3",
+          "time": "傍晚",
+          "name": "湖岸旅舍",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "inn"
+        }
+      ]
+    },
+    {
+      "id": "day-may01",
+      "date": "2030-05-01",
+      "city": "山城",
+      "title": "草地与山谷",
+      "intro": "这是模板演示，安排和地点均为虚构。主要体验之外保留休息时间。",
+      "warn": "示例不含真实票价、营业时间或交通时长。请勿按此出行。",
+      "region": "region-1",
+      "items": [
+        {
+          "id": "event-1-0",
+          "time": "上午",
+          "name": "湖岸旅舍",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "inn"
+        },
+        {
+          "id": "event-1-1",
+          "time": "午前",
+          "name": "山坡草地",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "grass"
+        },
+        {
+          "id": "event-1-2",
+          "time": "下午",
+          "name": "山谷瀑布",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "可选",
+          "placeId": "waterfall"
+        },
+        {
+          "id": "event-1-3",
+          "time": "傍晚",
+          "name": "湖岸旅舍",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "inn"
+        }
+      ]
+    },
+    {
+      "id": "day-may02",
+      "date": "2030-05-02",
+      "city": "海城",
+      "title": "看海，然后回家",
+      "intro": "这是模板演示，安排和地点均为虚构。主要体验之外保留休息时间。",
+      "warn": "示例不含真实票价、营业时间或交通时长。请勿按此出行。",
+      "region": "region-2",
+      "items": [
+        {
+          "id": "event-2-0",
+          "time": "上午",
+          "name": "湖岸旅舍",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "inn"
+        },
+        {
+          "id": "event-2-1",
+          "time": "午前",
+          "name": "海湾沙滩",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "coast"
+        },
+        {
+          "id": "event-2-2",
+          "time": "下午",
+          "name": "返程机场",
+          "desc": "演示安排：时间是宽松的时段，不是预约或导航预计。",
+          "tag": "演示",
+          "placeId": "station"
+        }
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "placeId": "coffee",
+      "type": "咖啡",
+      "kind": "虚构咖啡选项"
+    },
+    {
+      "placeId": "market",
+      "type": "早餐",
+      "kind": "虚构早餐选项"
+    }
+  ],
+  "hotels": [
+    {
+      "placeId": "inn",
+      "checkIn": "2030-04-30",
+      "checkOut": "2030-05-02",
+      "risk": "演示酒店，不存在真实库存、房价或可预订房型。"
+    }
+  ],
+  "regions": [
+    {
+      "id": "all",
+      "name": "全程",
+      "title": "三座城，一次小旅行。",
+      "en": "THE WHOLE JOURNEY",
+      "note": "虚构演示 · 方位与间距不代表真实地理",
+      "nodes": [],
+      "routes": [
+        {
+          "dayId": "day-apr30",
+          "stops": [
+            "inn",
+            "lake",
+            "coffee",
+            "inn"
+          ],
+          "legs": []
+        },
+        {
+          "dayId": "day-may01",
+          "stops": [
+            "inn",
+            "grass",
+            "waterfall",
+            "inn"
+          ],
+          "legs": []
+        },
+        {
+          "dayId": "day-may02",
+          "stops": [
+            "inn",
+            "coast",
+            "station"
+          ],
+          "legs": []
+        }
+      ],
+      "panels": [
+        "region-0",
+        "region-1",
+        "region-2"
+      ]
+    },
+    {
+      "id": "region-0",
+      "name": "湖城",
+      "title": "湖城 · 地点备选",
+      "en": "LOCAL EXPLORER",
+      "note": "虚构城市示意，非导航地图",
+      "nodes": [
+        {
+          "placeId": "inn",
+          "x": 310,
+          "y": 180
+        },
+        {
+          "placeId": "lake",
+          "x": 730,
+          "y": 165
+        },
+        {
+          "placeId": "coffee",
+          "x": 500,
+          "y": 340
+        },
+        {
+          "placeId": "market",
+          "x": 135,
+          "y": 365
+        }
+      ],
+      "routes": [
+        {
+          "dayId": "day-apr30",
+          "stops": [
+            "inn",
+            "lake",
+            "coffee",
+            "inn"
+          ],
+          "legs": [
+            {
+              "from": "inn",
+              "to": "lake",
+              "path": "M 310 180 Q 520.0 132.5 730 165",
+              "x": 520.0,
+              "y": 132.5,
+              "label": "行程顺序",
+              "optional": false,
+              "returning": false
+            },
+            {
+              "from": "lake",
+              "to": "coffee",
+              "path": "M 730 165 Q 615.0 212.5 500 340",
+              "x": 615.0,
+              "y": 212.5,
+              "label": "行程顺序",
+              "optional": false,
+              "returning": false
+            },
+            {
+              "from": "coffee",
+              "to": "inn",
+              "path": "M 500 340 Q 405.0 220.0 310 180",
+              "x": 405.0,
+              "y": 220.0,
+              "label": "返回",
+              "optional": false,
+              "returning": true
+            }
+          ]
+        }
+      ],
+      "terrain": "lowland"
+    },
+    {
+      "id": "region-1",
+      "name": "山城",
+      "title": "山城 · 地点备选",
+      "en": "LOCAL EXPLORER",
+      "note": "虚构城市示意，非导航地图",
+      "nodes": [
+        {
+          "placeId": "grass",
+          "x": 800,
+          "y": 365
+        },
+        {
+          "placeId": "waterfall",
+          "x": 275,
+          "y": 550
+        }
+      ],
+      "routes": [
+        {
+          "dayId": "day-may01",
+          "stops": [
+            "grass",
+            "waterfall"
+          ],
+          "legs": [
+            {
+              "from": "grass",
+              "to": "waterfall",
+              "path": "M 800 365 Q 537.5 417.5 275 550",
+              "x": 537.5,
+              "y": 417.5,
+              "label": "行程顺序",
+              "optional": false,
+              "returning": false
+            }
+          ]
+        }
+      ],
+      "terrain": "hills"
+    },
+    {
+      "id": "region-2",
+      "name": "海城",
+      "title": "海城 · 地点备选",
+      "en": "LOCAL EXPLORER",
+      "note": "虚构城市示意，非导航地图",
+      "nodes": [
+        {
+          "placeId": "coast",
+          "x": 565,
+          "y": 550
+        },
+        {
+          "placeId": "station",
+          "x": 865,
+          "y": 550
+        }
+      ],
+      "routes": [
+        {
+          "dayId": "day-may02",
+          "stops": [
+            "coast",
+            "station"
+          ],
+          "legs": [
+            {
+              "from": "coast",
+              "to": "station",
+              "path": "M 565 550 Q 715.0 510.0 865 550",
+              "x": 715.0,
+              "y": 510.0,
+              "label": "行程顺序",
+              "optional": false,
+              "returning": false
+            }
+          ]
+        }
+      ],
+      "terrain": "lowland"
+    }
+  ],
+  "practical": [
+    {
+      "id": "arrival",
+      "title": "抵达与交通",
+      "summary": "按真实订单填写",
+      "detail": "演示：区分落地、取车、到达酒店；不自动替用户预订。"
+    },
+    {
+      "id": "return",
+      "title": "返程提醒",
+      "summary": "还车与值机需要单独留时间",
+      "detail": "演示：起飞时间不是到机场时间。正式使用时核对订单与机场要求。"
+    }
+  ]
+}
